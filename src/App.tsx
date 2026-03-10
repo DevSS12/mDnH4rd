@@ -327,56 +327,56 @@ export default function App() {
           }
         ]
       },
-      games: {
-        title: "Jogos",
-        subtitle: "Portfólio",
-        playing: "jogando",
-        visits: "visitas",
-        group: "Comunidade",
-        play: "JOGAR AGORA",
+       games: {
+        title: "Games",
+        subtitle: "Portfolio",
+        playing: "playing",
+        visits: "visits",
+        group: "Community",
+        play: "PLAY GAME",
         items: [
           {
-            name: "Massacre",
-            creator: "ABYSMAL COVENANT",
-            tag: "TERROR",
-            desc: "Terror assimétrico de esconde-esconde. Liderança de toda a arquitetura backend — sharding de DataStore e combate autoritativo.",
-            active: "1.2k-2.2k",
-            visits: "2.5M+",
-            members: "177k",
-            url: "https://www.roblox.com/games/16404764044/MASSACRE-HORROR",
+            name: "Exercito do Alves [Em Desenvolvimento]",
+            creator: "Nguyenchienmn6ay",
+            tag: "ROLEPLAY",
+            desc: "Become an agent of the Brazilian Army and fight crime, honor your country, order and progress!",
+            active: "0",
+            visits: "1.2M",
+            members: "10k",
+            url: "",
             color: "from-red-500/20"
           },
           {
-            name: "Animatronic Nights",
-            creator: "PLAYBOX!",
-            tag: "SOBREVIVÊNCIA",
-            desc: "Sobrevivência de terror — caçe ou sobreviva como animatrônicos. Contribuição em infraestrutura de servidor escalável.",
-            active: "2k-4k",
-            visits: "25M+",
-            members: "818k",
-            url: "https://www.roblox.com/games/12345678",
+            name: "MetaVerse Champions Club",
+            creator: "Metaverse Events",
+            tag: "ENTERTAINMENT",
+            desc: "Metaverse Champions offers a chance to show everyone on Roblox that you have what it takes.",
+            active: "22",
+            visits: "121M+",
+            members: "70",
+            url: "https://www.roblox.com/pt/games/6674394294/Metaverse-Champions-Hub",
             color: "from-blue-500/20"
           },
           {
-            name: "Last Letter",
-            creator: "MMIIGAMES",
-            tag: "COMPETITIVO",
-            desc: "Jogo de palavras competitivo — cada última letra conta. Desenvolvimento de sistemas centrais de jogabilidade.",
-            active: "5k-7k",
-            visits: "89M+",
+            name: "Coming Soon [NEW]",
+            creator: "malevola",
+            tag: "ENTERTAINMENT",
+            desc: "Roblox Friends community [Banned!]",
+            active: "0",
+            visits: "17k+",
             members: "N/A",
-            url: "https://www.roblox.com/games/87654321",
+            url: "https://www.roblox.com/pt/request-error?code=404",
             color: "from-purple-500/20"
           },
           {
-            name: "Run For Brainrots",
-            creator: "INDEPENDENT",
-            tag: "MULTIPLAYER",
-            desc: "Runner multiplayer de ritmo acelerado. Engenharia de máquinas de estado escaláveis e replicação de movimento.",
-            active: "12k-60k",
-            visits: "250M+",
+            name: "FNAF: Eternal Nights 🍕",
+            creator: "Cob - Studios",
+            tag: "HORROR",
+            desc: "🇧🇷 Um jogo feito com orgulho por desenvolvedores brasileiros! 🇧🇷.",
+            active: "5k - 10k",
+            visits: "204M+",
             members: "N/A",
-            url: "https://www.roblox.com/games/11223344",
+            url: "https://www.roblox.com/pt/games/11392373641/FNAF-Eternal-Nights",
             color: "from-sky-500/20"
           }
         ]
@@ -596,9 +596,9 @@ export default function App() {
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 md:gap-12">
-              <StatItem value="12" suffix="yr" label={t.stats.dev} />
-              <StatItem value="350" suffix="M+" label={t.stats.visits} />
-              <StatItem value="2" suffix="M+" label={t.stats.members} />
+              <StatItem value="7" suffix="yr" label={t.stats.dev} />
+              <StatItem value="326" suffix="M+" label={t.stats.visits} />
+              <StatItem value="3.5" suffix="M+" label={t.stats.members} />
             </div>
           </motion.div>
 
